@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>the Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+</head>
+<body>
+	<br>
+	<br>
+	<header><h1><center><font face="helvetica" color="black">the Quiz</center></h1></header>
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+  			<li><a href="contact_us.html">Contact Us</a></li>
+  			<li><a href="https://www.amazon.com/Aluminum-Nourishing-Disposable-Waterproof-Ultra-thin/dp/B078ZSZ4L4/ref=sr_1_7_mimg_1?ie=UTF8&qid=1520958188&sr=8-7&keywords=aluminum%2Bfoil%2Bhat&th=1">Apparel</a></li>
+  		</ul>
+	
+  	
+	<form id="quiz" name="quiz">
+		
+		<h4>Whomst mans is on the right?</h4>
+		<img src="baldwin_fillmore.jpg">
+		<img src="baldwin_fillmore copy.jpg"><br>
+  		<input type="radio" id = "question1" name="question1" value="Baldwin" checked> Baldwin<br>
+ 		<input type="radio" id = "question1" name="question1" value="Fillmore"> Fillmore<br>
+ 		<input type="radio" id = "question1" name="question1" value="Same"> They're the same person<br>
+
+ 		<br>
+ 		<br>
+
+ 		<h4>What role is Will Ferrell preparing for on the right?</h4>
+		<img src="will-ferrell-chad-smith.jpg">
+		<img src="chad-smith-RHCP-jan-2017-billboard-1548.jpg">
+		<br>
+  		<input type="radio" id = "question2" name="question2" value="Ferrell" checked> Autobiographical<br>
+ 		<input type="radio" id = "question2" name="question2" value="Smith"> Chad Smith<br>
+ 		<input type="radio" id = "question2" name="question2" value="Sheep"> It's not a role, it's Chad Smith<br>
+ 		<input type="radio" id = "question2" name="question2" value="Cow"> It's not a role, he IS Chad Smith<br>
+
+ 		<br>
+ 		<br>
+
+ 		<h4>How old is Scarlett Johansson on the left</h4>
+		<img src="download.png">
+		<br>
+  		<input type="radio" id = "question3" name="question3" value="24" checked> 24<br>
+ 		<input type="radio" id = "question3" name="question3" value="19"> 19<br>
+ 		<input type="radio" id = "question3" name="question3" value="18"> 18<br>
+ 		<input type="radio" id = "question3" name="question3" value="Walken"> It's Christpher Walken, you fool<br>
+
+ 		<br>
+ 		<br>
+
+		<h4>Who is this woman?</h4>
+		<img src="download.jpeg">
+		<br>
+  		<input type="radio" id = "question4" name="question4" value="Ellen" checked> Ellen DeGeneres<br>
+ 		<input type="radio" id = "question4" name="question4" value="Owen"> Owen Wilson<br>
+ 		<input type="radio" id = "question4" name="question4" value="Both"> Owellen DeGenerson<br>
+ 		<input type="radio" id = "question4" name="question4" value="Wow"> Wow<br>
+ 				
+		<br>
+		<br>
+	
+		<input id="button" type="button" value="Donezo" onclick="score();">
+
+		<br>
+		<br>
+		<br>
+
+	</form>
+
+	<div id = "after_submit">
+	<p id = "number_correct"></p>
+	<p id = "message"></p>
+	<img id = "picture">
+	</div>
+	</html>
+
+</body>
+</html>
+
+
+
+

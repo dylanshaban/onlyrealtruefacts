@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="main.js"></script>
+</head>
+<body>
+	<br>
+	<br>
+	<header><h1><center><font face="helvetica" color="black">Contact Us</center></h1></header>
+
+	<ul class="nav">
+		<li><a href="index.html">Home</a></li>
+  		<li><a href="gallery.html">Gallery</a></li>
+  		<li><a href="quiz.html">Quiz</a></li>
+  		<li><a href="https://www.amazon.com/Aluminum-Nourishing-Disposable-Waterproof-Ultra-thin/dp/B078ZSZ4L4/ref=sr_1_7_mimg_1?ie=UTF8&qid=1520958188&sr=8-7&keywords=aluminum%2Bfoil%2Bhat&th=1">Apparel</a></li>
+  		
+	</ul>
+
+<div class="container">
+	<p>
+		e-mail: <br>
+		dylansdiscountfurniture@hotmail.com
+		<br>
+		<br>
+		<br>
+		fax: <br>
+		dial 7 and hit the green button
+		<br>
+	</p>
+	
+</div>
+
+<div class="container">
+ 	
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Send" onclick="alert(THANKS YOU FOR YOUR SUBMISSION)";>
+  
+</div>
+
+
+<div class='map' id="map" style="width:700px; height:300px; width; background:yellow"></div>
+
+<script>
+function myMap() {
+	var mapOptions = {
+	    center: new google.maps.LatLng(41.586643, -71.651251),
+	    zoom: 18,
+	    mapTypeId: google.maps.MapTypeId.HYBRID
+	}
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+	}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzPa0QrWhd7KZ5Fj4iBuIRkilUcWwd3vs&callback=myMap"></script>
+
+
+
+
+
+</body>
+</html>
